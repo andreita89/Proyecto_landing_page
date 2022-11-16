@@ -1,0 +1,720 @@
+@font-face {
+  font-family: Brandon Grotesque;
+  src: url("fonts/brandon-grotesque-light-58a8a4b38001d.otf");
+}
+@font-face {
+  font-family: PF Regal Display Pro;
+  src: url("fonts/PFRegalDisplayPro-Regular.ttf");
+}
+a,
+span,
+p {
+  font-family: "Brandon Grotesque";
+}
+body {
+  margin: 0;
+  margin-top: -85px;
+}
+.social-media-desktop {
+  position: sticky;
+  width: 375px;
+  display: flex;
+  align-items: center;
+  transform: rotate(90deg);
+  margin-left: -135px;
+  top: 50%;
+  gap: 20px;
+}
+.social-media-follow {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 45px;
+  color: #7e7e7e;
+}
+.social-media-desktop-icon {
+  transform: rotate(270deg);
+}
+.social-media-border {
+  width: 75px;
+  height: 2px;
+  background-color: #7e7e7e;
+}
+.header {
+  height: 100vh;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(126, 126, 126, 0) 100%
+    ),
+    url(https://uniqluxury.com.mx/wp-content/uploads/2022/08/mikail-mcverry-GSL3IuuwJv8-unsplash-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.header-menu-logo-container {
+  padding-right: 500px;
+  padding-left: 122px;
+  padding-bottom: 22px;
+  padding-top: 26px;
+  width: 50%;
+}
+.header-menu-logo {
+  width: 260px;
+}
+
+.border-left {
+  border-left: 1.5px solid rgba(255, 255, 255, 0.5);
+  padding-left: 30px;
+}
+.link-text {
+  font-style: normal;
+  font-weight: 390;
+  font-size: 20px;
+  margin-right: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.gray-text {
+  color: #7e7e7e;
+}
+
+.header-menu-options {
+  display: flex;
+  align-items: center;
+  padding-right: 38px;
+  padding-bottom: 39px;
+  padding-top: 40px;
+  width: 30%;
+}
+
+.header-menu-language {
+  display: flex;
+  align-items: center;
+  padding-bottom: 39px;
+  padding-top: 40px;
+  width: 15%;
+}
+
+.header-menu-hammburguer {
+  padding-right: 38px;
+  padding-bottom: 12px;
+  padding-top: 16px;
+  width: 5%;
+}
+.header-menu-hamburguer-logo {
+  width: 44px;
+}
+
+.header-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 88%;
+  padding-left: 122px;
+  padding-right: 122px;
+}
+.header-body-input-container {
+  padding-top: 44px;
+  display: flex;
+  justify-content: flex-end;
+}
+.header-body-description {
+  padding-bottom: 169px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-real-estate {
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 20px;
+  color: #ffffff;
+  background: none;
+  padding: 10px 0 10px 25px;
+  min-width: 20vw;
+}
+
+.input-icon {
+  padding-right: 25px;
+  background: url("assets/search.svg") no-repeat 93%;
+  background-size: 20px;
+}
+
+#luxury-title-home {
+  font-family: "PF Regal Display Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  color: #b4b7b7;
+}
+
+#real-title-home {
+  font-family: "PF Regal Display Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  color: #ffffff;
+  margin-bottom: 46px;
+}
+
+#view-title-home {
+  font-style: normal;
+  font-weight: 390;
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  padding: 12px 45px;
+  height: fit-content;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.header-body-arrow-icon {
+  padding-right: 38px;
+}
+
+.button {
+  font-size: 25px;
+  background-color: #fff0;
+  border-radius: 42px;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid #ffffff;
+  padding: 15px 40px;
+  font-weight: 390;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: rgb(82, 82, 82);
+  background-color: white;
+}
+
+.button_outlined {
+  font-size: 25px;
+  background-color: #fff0;
+  border-radius: 42px;
+  color: black;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid #000000;
+  padding: 15px 40px;
+  font-weight: 390;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+}
+
+.button_outlined:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+.button_yellow {
+  font-size: 25px;
+  background-color: #fff0;
+  border-radius: 42px;
+  color: #df991b;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid #df991b;
+  padding: 15px 40px;
+  font-weight: 390;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+}
+
+.button_yellow:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #df991b;
+}
+.button:hover .header-body-arrow-icon {
+  filter: invert(70%);
+}
+.gallery-all {
+  margin-bottom: 124px;
+}
+.content {
+  padding: 120px;
+  margin-bottom: 170px;
+}
+.footer {
+  position: relative;
+}
+.content-gallery-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 180px;
+}
+.content-gallery {
+  display: flex;
+  gap: 12px;
+}
+.white {
+  color: #ffffff;
+}
+.gray {
+  color: #464547;
+}
+.gallery-img-title {
+  font-family: "PF Regal Display Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  margin: 0;
+}
+.gallery-img-subtitle {
+  font-family: "PF Regal Display Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+  margin: 0;
+}
+
+.content-text {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  padding: 35px;
+  padding-top: 16px;
+  box-sizing: border-box;
+}
+.background-white {
+  background-color: white;
+}
+
+.text-align-right {
+  text-align: end;
+}
+
+.content-title {
+  font-family: "PF Regal Display Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #df991b;
+}
+.text-yellow {
+  font-style: normal;
+  font-weight: 390;
+  font-size: 25px;
+  color: #df991b;
+}
+.content-subtitle {
+  font-family: "PF Regal Display Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+}
+.content-description {
+  font-style: normal;
+  font-weight: 330;
+  font-size: 30px;
+}
+.content-gallery-description {
+  max-width: 690px;
+}
+
+.gallery-all-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.gallery-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 40px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-image {
+  position: relative;
+  width: 60%;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 860px;
+  padding-left: 40px;
+  width: 40%;
+}
+.background-contact {
+  width: 670px;
+  height: 1011px;
+  background: #26282b;
+}
+.contact-border {
+  display: flex;
+  align-items: center;
+}
+.border {
+  border: 1px solid #df991b;
+  width: 100%;
+}
+.subscribe-description {
+  font-family: "PF Regal Display Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  color: white;
+  margin: 0;
+}
+.subsribe-info {
+  width: 550px;
+}
+.subscribe-input {
+  width: 690px;
+}
+.subscribe-form {
+  display: flex;
+  justify-content: space-around;
+  background: #26282b;
+  padding-top: 49px;
+  padding-bottom: 55px;
+  padding-left: 141px;
+  padding-right: 141px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer-information {
+  background-color: #000000;
+  height: 647px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.footer-description {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 34px;
+}
+.call-center {
+  color: #b4b7b7;
+  font-family: "PF Regal Display Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+}
+.page-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+.call-number {
+  font-family: "PF Regal Display Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+.footer-description-info {
+  font-style: normal;
+  font-weight: 330;
+  font-size: 30px;
+  color: #ffffff;
+  padding-right: 40px;
+}
+.copyright {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.footer-links {
+  font-weight: 390;
+  font-size: 30px;
+  color: #b4b7b7;
+  text-decoration: none;
+}
+.page-link-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.header-menu-logo-mobile {
+  display: none;
+}
+.content-gallery-button-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-gallery-link-1 {
+  display: none;
+  margin-bottom: 32px;
+  text-decoration: none;
+}
+.position-relative {
+  position: relative;
+}
+.full-width-mobile {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.gallery-images-mobile div {
+  display: none;
+  margin-bottom: 16px;
+}
+.contact-image-img {
+  top: 9%;
+  position: absolute;
+}
+.footer-form {
+  padding-left: 141px;
+  padding-right: 141px;
+  position: absolute;
+  top: -20%;
+}
+.footer-form-label {
+  font-style: normal;
+  font-weight: 390;
+  font-size: 25px;
+  color: #ffffff;
+  padding-left: 50px;
+  margin-bottom: 18px;
+}
+.footer-submit-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.page-links {
+  display: flex;
+  justify-content: space-between;
+}
+.social-media {
+  display: none;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 550px) {
+  .header {
+    background-image: url("assets/background-mobile.jpg");
+  }
+  .header-menu-logo-mobile {
+    display: block;
+  }
+  div.header-menu-logo-container a .header-menu-logo {
+    display: none;
+  }
+  .header-menu-logo-container {
+    padding: 0;
+    padding-left: 24px;
+    width: 50%;
+  }
+  .header-menu-options,
+  .header-menu-language {
+    display: none;
+  }
+  .border-left {
+    border: 0;
+  }
+  .header-menu-hamburguer-logo {
+    width: 36px;
+  }
+  .header-body {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .search-real-estate {
+    width: 100%;
+  }
+  .header-body-input-container {
+    display: flex;
+    justify-content: center;
+  }
+  .header-body-description {
+    padding: 0;
+  }
+  #real-title-home {
+    font-size: 60px;
+  }
+  .button {
+    min-width: fit-content;
+    font-size: 25px;
+    padding: 15px 30px;
+  }
+  .header-body-arrow-icon {
+    padding-right: 8px;
+    width: 30px;
+  }
+  .content-gallery-container {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+  .content {
+    padding: 76px 24px;
+    margin-bottom: 280px;
+    overflow-x: hidden;
+  }
+  .content-title {
+    font-size: 30px;
+  }
+  .content-subtitle {
+    font-size: 40px;
+  }
+  .text-align-right {
+    text-align: left;
+  }
+  .content-description {
+    letter-spacing: -0.03em;
+  }
+  .content-gallery-button-1 {
+    display: none;
+  }
+  .mobile-gallery-link-1 {
+    display: block;
+  }
+  .gallery-img-title {
+    width: 260px;
+  }
+  .content-text {
+    padding-top: 0;
+    top: 70%;
+  }
+  .gallery-img-castle {
+    display: none;
+  }
+  .gallery-all {
+    margin-bottom: 60px;
+  }
+  .gallery-all-title {
+    text-align: left;
+  }
+  .gallery-images {
+    display: none;
+  }
+  .gallery-img-title-mobile {
+    width: 100%;
+  }
+  .contact {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .contact-info {
+    padding-left: 0;
+    width: 100%;
+    height: unset;
+  }
+  .contact-border-img {
+    width: 70px;
+  }
+  .contact-border {
+    margin-left: -24px;
+    margin-right: -24px;
+    margin-bottom: 60px;
+  }
+  .contact-image {
+    margin-left: -24px;
+    width: 80%;
+  }
+  .background-contact {
+    width: auto;
+    height: 430px;
+  }
+  .contact-image-img {
+    top: 7%;
+    left: 5%;
+    width: 348px;
+  }
+  .footer-form {
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 87%;
+    top: -27%;
+  }
+  .subscribe-form {
+    padding: 30px;
+    flex-direction: column;
+  }
+  .subsribe-info {
+    width: auto;
+  }
+  .subscribe-input {
+    width: auto;
+  }
+  .subscribe-description {
+    font-size: 45px;
+  }
+  .footer-form-label {
+    padding-left: 0;
+    font-size: 25px;
+  }
+  .footer-submit-button {
+    display: none;
+  }
+  .footer-description {
+    grid-template-columns: 1fr;
+  }
+  .footer-information {
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 1000px;
+  }
+  .footer-description-info {
+    font-size: 24px;
+  }
+  .footer-links {
+    font-size: 25px;
+  }
+  .page-contact {
+    text-align: left;
+  }
+  .social-media {
+    display: flex;
+    gap: 30px;
+  }
+  .page-links {
+    margin-bottom: 20px;
+  }
+  .gallery-images-mobile div {
+    display: block;
+  }
+  .social-media-desktop {
+    display: none;
+  }
+  body {
+    margin-top: 0px;
+  }
+}
